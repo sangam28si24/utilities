@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 import google.generativeai as genai
 
 #CONFIG
-os.environ["GEMINI_API_KEY"] = "<AIzaSyBwVlUSb0Y8IA9QUHo5eKZULHERvXDBB7s>"  # or export GEMINI_API_KEY externally
+os.environ["GEMINI_API_KEY"] = ""  # or export GEMINI_API_KEY externally
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 IMAP_SERVER = 'imap.gmail.com'
